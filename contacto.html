@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../proyecto1sprint2/css/main.css" />
+    <link rel="stylesheet" href="../proyecto1sprint2/css/normalize.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo-contenedor">
+        <div class="logo">
+          <a href=""><img src="../proyecto1sprint2/img/logo.png" alt="logo" class="logo" /></a>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-element"><a href="../proyecto1sprint2/index.html">inicio</a></li>
+          <li class="nav-list-element"><a href="../proyecto1sprint2/contacto.html">contacto</a></li>
+          <li class="nav-list-element"><a href="https://github.com/Alexander0z">mi github</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contacto">
+        <section>
+            <form>
+                <fieldset>
+                    <legend class="texto centrado">Formulario de contacto</legend>
+
+                    <div class="flex">
+                        <label class="texto" for="nombre">Nombre</label>
+                        <input class="texto" type="text" id="nombre" placeholder="ingresar Nombre" required>
+                    </div>                        
+                    <br>
+
+                    <div class="flex">
+                        <label class="texto" for="apellido">Apellido</label>
+                        <input class="texto" type="text" id="apellido" placeholder="ingresar Apellido" required>
+                    </div>
+                    <br>
+
+                    <div class="flex">
+                        <label class="texto" for="numero">Telefono</label>
+                        <input class="texto" type="number" id="numero" placeholder="ingresar numero de telefono" required>
+                    </div>
+                    <br>
+
+                    <div class="flex">
+                        <label class="texto" for="email">email</label>
+                        <input class="texto" type="email" id="email" placeholder="ingresar email" required>
+                    </div>  
+                    <br>
+                    
+                    <a class="boton texto" href="#">ENVIAR</a>
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer class="footer footer-contacto">
+        Todos los derechos reservados Franco Alexander Perez freelancer ©
+    </footer>
+  </body>
+</html>
